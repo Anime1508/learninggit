@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="test_scripts.Open_Browser">
+        <methods>
+          <include name="open_browser"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- test_scripts.Open_Browser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
